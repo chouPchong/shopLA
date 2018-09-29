@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('timer');
 });
+Route::get('/page1', 'PagesController@root')->name('root');
 Route::group(['prefix' => 'working_test'], function () {
     Route::get('location_test', 'WorkingTestController@locationTest');
 });
