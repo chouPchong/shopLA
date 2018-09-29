@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('working_test.location_test');
+    return view('timer');
 });
 Route::group(['prefix' => 'working_test'], function () {
     Route::get('location_test', 'WorkingTestController@locationTest');
