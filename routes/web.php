@@ -14,9 +14,6 @@ Route::group(['prefix' => 'working_test'], function () {
     Route::get('location_test', 'WorkingTestController@locationTest');
 });
 
-Route::get('/', function () {
-    return view('timer');
-});
 Route::get('/home', 'PagesController@root')->name('root');
 
 Auth::routes();
