@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AddCartRequest;
-use App\Http\Requests\Request;
+use Illuminate\Http\Request;
 use App\Models\ProductSku;
 use App\Services\CartService;
 
