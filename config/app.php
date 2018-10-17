@@ -233,4 +233,8 @@ return [
      */
     'faker_locale' => 'zh_CN',
 
+    /**
+     * 设置延时任务时间，单位秒
+     */
+    'order_ttl' => 1800,
 ];
